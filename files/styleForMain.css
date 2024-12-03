@@ -114,10 +114,10 @@ section {
     border-radius: 10px;
     color: white;
     text-align: left;
-    background-image: url('assets/pfp background.png'); /* Path to your image */
-    background-repeat: no-repeat; /* Avoid tiling the image */
-    background-size: auto; /* Scale image without cropping (try 'cover' if needed) */
-    background-position: right; /* Position image to the right */
+    background-image: url('assets/pfp\ background.jpg');
+    background-repeat: no-repeat; 
+    background: size 300px; 
+    background-position: right; 
   }
 
 .section__text p {
@@ -131,11 +131,15 @@ section {
 .section__text__p2 {
   font-size: 1.25rem;
   margin-bottom: 1rem;
+  color: #ffffff;
+  text-align: center;
 }
 
 .title {
   font-size: 3rem;
   text-align: center;
+  color: #ffffff;
+  text-shadow: black;
 }
 
 #socials-container {
@@ -171,7 +175,7 @@ section {
 .btn-color-1,
 .btn-color-2 {
   border: rgb(53, 53, 53) 0.1rem solid;
-  background-color: #fd9ebc;
+  background-color: white;
 }
 
 .btn-color-1:hover,
@@ -182,15 +186,16 @@ section {
 .btn-color-1,
 .btn-color-2:hover {
   background: rgb(53, 53, 53);
-  color: rgba(253, 181, 202, 0.868);
+  color: rgba(251, 251, 251, 0.868);
 }
 
 .btn-color-1:hover {
   background: rgb(0, 0, 0);
+  border: #ffffff;
 }
 
 .btn-color-2 {
-  background: none;
+  background: white;
 }
 
 .btn-color-2:hover {
@@ -352,7 +357,7 @@ article .icon {
 
 .color-container {
   border-color: rgb(163, 163, 163);
-  background: rgb(106, 55, 55);
+  background: rgb(80, 58, 32);
 }
 .text-container {
     text-decoration-color: #D9D9D9;
